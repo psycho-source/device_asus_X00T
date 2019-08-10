@@ -41,7 +41,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := Android/sdm660_64/sdm660_64:9/PKQ1/16.2017.1905.053-20190513:user/release-keys
-
-HAVOC_BUILD_TYPE := Official
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.havoc.maintainer=rizkybenggolo
